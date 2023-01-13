@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 const BackEnd = () => {
   return (
     <>
-      <h2>Programming Languages</h2>
       <h3>For Back-End languages, I have experience with</h3>
       <ul>
         <li>TypeScript</li>

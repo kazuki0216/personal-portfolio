@@ -6,15 +6,15 @@ const ProjectCards = () => {
       <h2>Projects that I have created</h2>
       <div className="project-container">
         <div className="project1">
-          <h3>Sportify</h3>
+          <h3 className="project-title">Sportify</h3>
           <img src="" alt="" />
           <h4>
             An app that generates random workout for users that will allow them
-            to spice up their working regime!
+            to spice up their work out regime!
           </h4>
         </div>
         <div className="project2">
-          <h3>Alternatives</h3>
+          <h3 className="project-title">Alternatives</h3>
           <img src="" alt="" />
           <h4>
             An app that allows users to visualize how much healthy food they are
@@ -23,7 +23,7 @@ const ProjectCards = () => {
           </h4>
         </div>
         <div className="project3">
-          <h3>Tokyo Noire</h3>
+          <h3 className="project-title">Tokyo Noire</h3>
           <img src="" alt="" />
           <h4>
             A geo-location story based web app that allows users to create their

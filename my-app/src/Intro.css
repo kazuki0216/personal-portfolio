@@ -1,0 +1,51 @@
+.intro {
+  padding-top: 1em;
+  margin: 3%;
+}
+.Intro {
+  clear: both;
+}
+
+.text.animate {
+  animation: fade-in 0.5s ease-in-out;
+}
+
+.body-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.body-img img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.life-intro h3 {
+  text-align: left;
+  margin-left: 8%;
+  float: left;
+  font-size: 40px;
+}
+
+.life-intro h4 {
+  padding-top: 0;
+  text-align: left;
+  margin-left: 8%;
+  float: left;
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1rem;
+  margin: 2rem;
+  clear: both;
+  padding-bottom: 10%;
+}
+
+.Intro p {
+  clear: both;
+  margin: 10% 5%;
+  text-align: justify;
+  text-justify: inter-word;
+}
