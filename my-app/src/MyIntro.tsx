@@ -34,6 +34,7 @@ const MyIntro = () => {
             </h3>
             <div className="designs-7"></div>
             <div className="designs-6"></div>
+            <div className="designs-8"></div>
             <div className="designs-5"></div>
             <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={2}>
               <h4>

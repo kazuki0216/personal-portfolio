@@ -42,9 +42,9 @@ function App() {
         <div className="designs-3"></div>
       </div>
       <MyIntro />
-      <ProjectCards />
       <FrontEnd />
       <BackEnd />
+      <ProjectCards />
       <Ending />
     </div>
   );

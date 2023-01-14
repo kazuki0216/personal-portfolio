@@ -1,0 +1,94 @@
+.FrontEnd {
+  position: relative;
+  margin-bottom: 10%;
+  z-index: 10;
+}
+.FrontEnd ul {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  margin: 5% 2rem;
+}
+.FrontEnd h2 {
+  position: relative;
+  font-size: 4em;
+  z-index: 10;
+  margin-bottom: 1em;
+}
+.FrontEnd h3 {
+  font-size: 3em;
+  z-index: 10;
+}
+.FrontEnd li {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 1.5rem;
+  z-index: 10;
+}
+
+.BackEnd {
+  position: relative;
+}
+.BackEnd li {
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1.5rem;
+  text-align: left;
+  z-index: 10;
+}
+.BackEnd ul {
+  margin: 5% 2rem;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  margin: 5% 2rem;
+}
+
+.BackEnd h2 {
+  font-size: 4em;
+  margin-bottom: 1em;
+}
+.BackEnd h3 {
+  position: relative;
+  z-index: 10;
+  font-size: 3em;
+}
+
+.designs-10 {
+  position: absolute;
+  transform: rotate(70deg);
+  top: 0;
+  border: 2px solid black;
+  width: 25vw;
+  height: 25vw;
+  z-index: auto;
+  box-shadow: 0 0 10px rgb(168, 168, 168);
+  overflow-x: hidden;
+}
+.designs-11 {
+  position: absolute;
+  transform: rotate(140deg);
+  top: 50%;
+  right: 0;
+  border: 2px solid black;
+  width: 40vw;
+  height: 40vh;
+  border-radius: 10px;
+  z-index: auto;
+  overflow-x: hidden;
+  box-shadow: 0 0 10px rgb(168, 168, 168);
+}
+.designs-12 {
+  position: absolute;
+  transform: rotate(140deg);
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  left: 20%;
+  bottom: 0;
+  border-radius: 50%;
+  overflow-x: hidden;
+  z-index: auto;
+  box-shadow: 0 0 10px rgb(168, 168, 168);
+}

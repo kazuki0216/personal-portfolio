@@ -37,7 +37,7 @@
 .life-intro h4 {
   margin-top: 20%;
   text-align: left;
-  margin-left: 12%;
+  margin-left: 8%;
   float: left;
   font-size: 1.5em;
 }
@@ -51,7 +51,7 @@ h4 {
 
 .Intro p {
   clear: both;
-  margin: 10% 5%;
+  margin: 10% 8%;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -98,6 +98,19 @@ h4 {
   height: 200px;
   right: 15%;
   bottom: 50%;
+  border-radius: 50%;
+  overflow-x: hidden;
+  z-index: auto;
+  box-shadow: 0 0 10px rgb(168, 168, 168);
+}
+.designs-8 {
+  position: absolute;
+  transform: rotate(140deg);
+  border: 2px solid black;
+  width: 150px;
+  height: 150px;
+  right: 20%;
+  bottom: 75%;
   border-radius: 50%;
   overflow-x: hidden;
   z-index: auto;

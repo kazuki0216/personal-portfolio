@@ -32,8 +32,8 @@ const ProjectCards = () => {
           <ScrollAnimation animateIn="fadeInRight" animateOnce={true}>
             <div className="info1">
               <h4>
-                An app that generates random workout for users that will allow
-                them to spice up their work out regime!
+                A team project that generates random workouts for users that
+                will allow them to spice up their work out regime!
               </h4>
               <ul>
                 <li>Implement backend using Node and Express.</li>
@@ -68,7 +68,7 @@ const ProjectCards = () => {
               <h4>
                 A full-stack Typescript/React app that allows users to visualize
                 how much healthy food they are able to consume by setting their
-                own calorie goal, and selecting fruits until they reach their
+                own calorie goals, and selecting fruits until they reach their
                 threshold!
               </h4>
               <ul>
@@ -99,9 +99,11 @@ const ProjectCards = () => {
           <ScrollAnimation animateIn="fadeInRight" animateOnce={true}>
             <div className="info3">
               <h4>
-                A Geo-location story based web app that allows users to create
-                their own story and players to explore the world!
+                A Geo-location story based web app that allows story tellers to
+                create their own stories and players to go out and explore the
+                world!
               </h4>
+              <h5>As a Backend-Lead: </h5>
               <ul>
                 <li>
                   Implemented Node, Express, Mongo DB atlas in the back-end.
