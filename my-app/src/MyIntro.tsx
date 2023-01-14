@@ -58,7 +58,7 @@ const MyIntro = () => {
             be a part of developing meaningful software.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="rotateIn" animateOnce={true}>
+        <ScrollAnimation animateIn="bounce" animateOnce={true}>
           <h2>
             In order to make my dream of becoming a software engineer come
             true...

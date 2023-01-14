@@ -1,3 +1,7 @@
+.Project {
+  text-align: left;
+  margin-bottom: 15%;
+}
 .Project h2 {
   font-size: 4em;
   margin-top: 10%;
@@ -10,8 +14,9 @@
 }
 
 .project-title {
+  text-align: center;
   margin-top: 2em;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 li {
   text-align: left;
@@ -36,6 +41,8 @@ li {
   grid-template-areas: "info img";
 }
 .info2 {
+  text-align: justify;
+
   grid-area: info;
 }
 .project2 img {

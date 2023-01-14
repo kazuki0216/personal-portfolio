@@ -16,6 +16,8 @@
 }
 
 .body-img {
+  margin-top: 10%;
+  margin-bottom: 10%;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }

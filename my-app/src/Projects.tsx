@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
-import "./Project.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
+import "./Project.css";
 
 const ProjectCards = () => {
   const alternativesArray = [
@@ -36,10 +36,13 @@ const ProjectCards = () => {
                 them to spice up their work out regime!
               </h4>
               <ul>
-                <li>Worked in the backend using Node and Express.</li>
-                <li>Configured postgreSQL for data storage.</li>
+                <li>Implement backend using Node and Express.</li>
                 <li>
-                  Designed API to connect client-side code and server-side code
+                  Configured postgreSQL for data storage and integrate Knex.js.
+                </li>
+                <li>
+                  Designed Restful API to connect client-side code and
+                  server-side code
                 </li>
               </ul>
             </div>
