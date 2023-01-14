@@ -1,0 +1,58 @@
+.Project h2 {
+  font-size: 4em;
+  margin-top: 10%;
+  overflow-y: hidden;
+}
+
+.Project ul {
+  margin-left: 1rem;
+  list-style-type: disc;
+}
+
+.project-title {
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+li {
+  text-align: left;
+}
+
+.project1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.info1 {
+  grid-column-start: 2;
+}
+.project1 img {
+  max-width: 100%;
+  max-height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+.project2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "info img";
+}
+.info2 {
+  grid-area: info;
+}
+.project2 img {
+  max-width: 100%;
+  max-height: 100%;
+  grid-area: img;
+}
+.project3 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.info3 {
+  grid-column-start: 2;
+}
+.project3 img {
+  max-width: 100%;
+  max-height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}

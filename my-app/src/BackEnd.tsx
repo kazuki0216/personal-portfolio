@@ -12,8 +12,16 @@ const BackEnd = () => {
       <div>
         <h3>Database</h3>
         <ul>
-          <li>Postgres</li>
+          <li>PostgreSQL</li>
           <li>Mongo DB</li>
+        </ul>
+      </div>
+      <div className="knowledge">
+        <h3>Knowledge with</h3>
+        <ul>
+          <li>Heroku</li>
+          <li>Netlify</li>
+          <li>Render</li>
         </ul>
       </div>
     </>

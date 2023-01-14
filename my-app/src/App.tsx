@@ -36,9 +36,11 @@ function App() {
         </div>
         <img src="https://i.postimg.cc/W1S1BXgC/IMG-6489.jpg" alt="An image" />
       </div>
-      <div className="designs-1"></div>
-      <div className="designs-2"></div>
-      <div className="designs-3"></div>
+      <div className="pattern">
+        <div className="designs-1"></div>
+        <div className="designs-2"></div>
+        <div className="designs-3"></div>
+      </div>
       <MyIntro />
       <ProjectCards />
       <FrontEnd />
