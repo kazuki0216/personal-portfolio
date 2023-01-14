@@ -5,7 +5,9 @@
   font-weight: 700;
   text-shadow: 0 0 10px rgb(168, 168, 168);
 }
-
+.Intro a {
+  color: white;
+}
 body {
   overflow-x: hidden;
 }
