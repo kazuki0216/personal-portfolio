@@ -4,13 +4,14 @@
   letter-spacing: 0.15rem;
   font-weight: 700;
   text-shadow: 0 0 10px rgb(168, 168, 168);
-  font-family: "Gloria Hallelujah", cursive;
 }
 
 body {
   overflow-x: hidden;
 }
-
+h1 h2 {
+  font-family: "Heebo", sans-serif;
+}
 .pattern {
   overflow-x: hidden;
 }
