@@ -1,11 +1,9 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect } from "react";
 import "./Intro.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const MyIntro = () => {
-  const divRef = useRef<HTMLDivElement | null>(null);
-
   useEffect(() => {
     AOS.init({ duration: 3000 });
   }, []);
