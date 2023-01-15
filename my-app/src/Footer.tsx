@@ -1,7 +1,3 @@
-import { useEffect, useState } from "react";
-import React from "react";
-import ReactDOM from "react-dom";
-import { SocialIcon } from "react-social-icons";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";

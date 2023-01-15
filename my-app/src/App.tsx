@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useEffect } from "react";
 import MyIntro from "./MyIntro";
 import "./App.css";
 import ProjectCards from "./Projects";

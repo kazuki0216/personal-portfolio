@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import "./Languages.css";
 
 const FrontEnd = () => {

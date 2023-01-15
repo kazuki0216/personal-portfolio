@@ -1,15 +1,9 @@
-import { useEffect, useState } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
 import "./Project.css";
 
 const ProjectCards = () => {
-  const alternativesArray = [
-    "https://i.postimg.cc/GmZNw9Dy/Screenshot-2023-01-14-at-13-19-34.png",
-    ,
-    "https://i.postimg.cc/PqMqFCVt/Screenshot-2023-01-14-at-13-15-15.png",
-  ];
   return (
     <>
       <div className="Project">
