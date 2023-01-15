@@ -10,13 +10,15 @@ const BackEnd = () => {
   return (
     <>
       <div className="BackEnd">
-        <h3 data-aos="fade-in">Back-End Experience</h3>
-        <ul>
-          <li data-aos="fade-left">TypeScript</li>
-          <li data-aos="fade-left">Express/Node</li>
-          <li data-aos="fade-left">Java</li>
-        </ul>
         <div>
+          <h3 data-aos="fade-in">Back-End Experience</h3>
+          <ul>
+            <li data-aos="fade-left">TypeScript</li>
+            <li data-aos="fade-left">Express/Node</li>
+            <li data-aos="fade-left">Java</li>
+          </ul>
+        </div>
+        <div className="database">
           <h3 data-aos="fade-in">Database</h3>
           <ul>
             <li data-aos="fade-right">PostgreSQL</li>

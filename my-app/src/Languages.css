@@ -62,7 +62,7 @@
   border: 2px solid black;
   width: 25vw;
   height: 25vw;
-  z-index: auto;
+  z-index: 0;
   box-shadow: 0 0 10px rgb(168, 168, 168);
   overflow-x: hidden;
 }
@@ -75,7 +75,7 @@
   width: 40vw;
   height: 40vh;
   border-radius: 10px;
-  z-index: auto;
+  z-index: 0;
   overflow-x: hidden;
   box-shadow: 0 0 10px rgb(168, 168, 168);
 }
@@ -89,6 +89,81 @@
   bottom: 0;
   border-radius: 50%;
   overflow-x: hidden;
-  z-index: auto;
+  z-index: 0;
   box-shadow: 0 0 10px rgb(168, 168, 168);
+}
+
+@media only screen and (max-width: 390px) {
+  .FrontEnd {
+    margin-top: 10%;
+    margin-bottom: 50%;
+    text-align: center;
+    z-index: 10;
+  }
+  br {
+    display: none;
+  }
+  p {
+    clear: both;
+    margin: 10% 8%;
+    text-align: unset !important;
+  }
+  .FrontEnd h2 {
+    font-size: 2em;
+  }
+  .BackEnd h2 {
+    font-size: 2em;
+  }
+  .FrontEnd h3 {
+    text-decoration: underline;
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+
+  .BackEnd {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 50%;
+  }
+  .BackEnd h3 {
+    text-decoration: underline;
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+
+  .FrontEnd ul {
+    display: block;
+    z-index: 10;
+  }
+  .FrontEnd li {
+    float: left;
+    z-index: 10;
+    font-size: 1.4em;
+  }
+  .BackEnd {
+    margin-top: 10%;
+    text-align: center;
+    z-index: 10;
+  }
+  .BackEnd ul {
+    display: block;
+    z-index: 10;
+  }
+  .BackEnd li {
+    font-size: 1.4em;
+    float: left;
+    z-index: 10;
+  }
+
+  .database {
+    margin-top: 40% !important;
+  }
+  .database h3 {
+    text-decoration: underline;
+    font-size: 1.8em;
+    font-weight: 700;
+  }
+  .database li {
+    font-size: 1.4em;
+  }
 }
