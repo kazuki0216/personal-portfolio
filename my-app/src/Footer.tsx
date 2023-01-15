@@ -14,14 +14,14 @@ const Ending = () => {
         <h3>
           <a href="https://github.com/kazuki0216">
             <FaGithub className="icons" />
+            Github: kazuki0216
           </a>
-          Github: kazuki0216
         </h3>
         <h3>
-          <a href="linkedin.com/in/kazuki-kagoshima-629b0a236">
+          <a href="www.linkedin.com/in/kazuki-kagoshima">
             <FaLinkedin className="icons" />
+            LinkedIn: Kazuki Kagoshima
           </a>
-          LinkedIn: Kazuki Kagoshima
         </h3>
       </div>
     </>

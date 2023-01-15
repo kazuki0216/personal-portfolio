@@ -16,6 +16,7 @@
 }
 
 .body-img {
+  margin: 2%;
   margin-top: 10%;
   margin-bottom: 10%;
   display: grid;
@@ -56,7 +57,11 @@ h4 {
   text-justify: inter-word;
 }
 
+.closing {
+  height: 400px;
+}
 .closing h6 {
+  overflow-x: hidden;
   text-align: justify;
   text-justify: inter-word;
   margin: 5% 5%;

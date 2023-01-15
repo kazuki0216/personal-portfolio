@@ -5,27 +5,17 @@ import ProjectCards from "./Projects";
 import FrontEnd from "./FrontEnd";
 import BackEnd from "./BackEnd";
 import Ending from "./Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   let imageUrls = [
     "https://i.postimg.cc/W1S1BXgC/IMG-6489.jpg",
     "https://i.postimg.cc/d1CkcGqC/C0-BE547-A-4-D4-B-431-A-AA6-D-CB1-DDDFA59-CB.jpg",
   ];
-  const [currentImage, setCurrentImage] = useState(imageUrls[0]);
-  const [fadeIn, setFadeIn] = useState(false);
-
   useEffect(() => {
-    const interval = setInterval(() => {
-      setFadeIn(false);
-      setTimeout(() => {
-        setCurrentImage(
-          currentImage === imageUrls[0] ? imageUrls[1] : imageUrls[0]
-        );
-        setFadeIn(true);
-      }, 1000);
-    }, 3000);
-    return () => clearInterval(interval);
-  }, [currentImage]);
+    AOS.init({ duration: 2000 });
+  }, []);
 
   return (
     <div className="App">
