@@ -10,7 +10,7 @@ const FrontEnd = () => {
   return (
     <>
       <div className="FrontEnd">
-        <div data-aos="fade-in">
+        <div className="front" data-aos="fade-in">
           <h2>Programming Languages and Skills</h2>
           <h3>Front-End Experience</h3>
         </div>
