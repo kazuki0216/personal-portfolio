@@ -77,15 +77,30 @@ li {
     display: unset;
   }
   .info1 {
-    text-align: unset;
+    overflow: visible;
+    overflow-wrap: normal;
+    text-align: center;
   }
   .info2 {
-    text-align: unset;
+    overflow-wrap: break-word;
+    text-align: center;
+    margin-left: 0 !important;
+  }
+  .info2 h4 {
+    overflow-wrap: break-word;
+    text-align: center;
   }
   .info3 {
-    text-align: unset;
+    overflow-wrap: normal;
+    text-align: center;
   }
   .project3 {
     display: unset;
+  }
+  .Project ul {
+    margin-left: 0;
+  }
+  .Project li {
+    text-align: left !important;
   }
 }

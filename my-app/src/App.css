@@ -1,6 +1,7 @@
 * {
   color: white;
   font-size: large;
+  box-sizing: border-box;
   letter-spacing: 0.15rem;
   font-weight: 700;
   text-shadow: 0 0 10px rgb(168, 168, 168);
@@ -106,9 +107,13 @@ h2 {
 }
 
 @media only screen and (max-width: 390px) {
+  .root {
+    overflow-x: hidden !important;
+  }
   body {
+    max-width: 390;
     font-size: smaller;
-    overflow-x: hidden;
+    margin: 0 auto;
   }
 
   .header {
