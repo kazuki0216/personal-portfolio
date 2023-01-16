@@ -18,7 +18,7 @@ const Ending = () => {
           </a>
         </h3>
         <h3>
-          <a href="www.linkedin.com/in/kazuki-kagoshima">
+          <a href="https://www.linkedin.com/in/kazuki-kagoshima/">
             <FaLinkedin className="icons" />
             LinkedIn: Kazuki Kagoshima
           </a>
