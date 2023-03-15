@@ -24,7 +24,7 @@ function App() {
       </div>
       <div className="pattern">
         <div className="designs-1"></div>
-        <div className="designs-2"></div>
+        {/* <div className="designs-2"></div> */}
         <div className="designs-3"></div>
       </div>
       <MyIntro />

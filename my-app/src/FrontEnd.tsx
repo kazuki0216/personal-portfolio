@@ -21,7 +21,7 @@ const FrontEnd = () => {
           <li data-aos="fade-right">React</li>
         </ul>
         <div className="designs-10"></div>
-        <div className="designs-11"></div>
+        {/* <div className="designs-11"></div> */}
       </div>
     </>
   );
