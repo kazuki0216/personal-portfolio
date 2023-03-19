@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import "./Intro.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const MyIntro = () => {
   useEffect(() => {
@@ -12,13 +14,13 @@ const MyIntro = () => {
     <>
       <div className="Intro">
         <div className="life-intro">
-          <h2>ABOUT</h2>
-          <h4>
+          <h2>ABOUT <FontAwesomeIcon icon={faUser} className="user-icon"/></h2>
+          <h3>
             I lived in California for a couple of years as a kid, <br />
             and have been involved with American culture for all of my life,{" "}
             <br />
             So I am a native English and Japanese speaker 🇯🇵🇺🇸
-          </h4>
+          </h3>
         </div>
         <p>
           On July 2021, I decided to become a software engineer <br />
@@ -35,11 +37,15 @@ const MyIntro = () => {
           In order to make my dream of becoming a software engineer come true...
         </h2>
         <div className="body-img">
-          <img src="https://i.postimg.cc/3x6xrWfF/IMG-6064.jpg" alt="" />
-          <img
-            src="https://i.postimg.cc/d1CkcGqC/C0-BE547-A-4-D4-B-431-A-AA6-D-CB1-DDDFA59-CB.jpg"
-            alt=""
-          />
+          <div className="image-wrapper">
+            <img src="https://i.postimg.cc/3x6xrWfF/IMG-6064.jpg" alt="" />
+          </div>
+          <div className="image-wrapper">
+            <img
+              src="https://i.postimg.cc/d1CkcGqC/C0-BE547-A-4-D4-B-431-A-AA6-D-CB1-DDDFA59-CB.jpg"
+              alt=""
+            />
+          </div>
         </div>
         <div className="closing">
           <h6>
