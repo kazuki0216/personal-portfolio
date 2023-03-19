@@ -55,6 +55,11 @@ function App() {
               I'm a 24 year old Full-Stack <br />
               software developer based in Japan
             </h3>
+            <h4>
+              I Especially love BackEnd Engineering and am
+              <br />
+              currently passionate about learning Java{" "}
+            </h4>
           </div>
         </div>
       </section>

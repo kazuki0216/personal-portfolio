@@ -1,10 +1,8 @@
-.Project {
+.Project h5 {
   text-align: left;
-  margin-bottom: 10%;
 }
 .Project h2 {
   font-size: 4em;
-  margin-top: 10%;
 }
 
 .Project ul {
@@ -14,8 +12,7 @@
 
 .project-title {
   text-align: center;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin: 1em 1em;
 }
 li {
   text-align: left;
@@ -24,9 +21,15 @@ li {
 .project1 {
   display: grid;
   grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr; /* set all rows to 1 fraction */
+  align-items: stretch;
 }
 .info1 {
   grid-column-start: 2;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .project1 img {
   max-width: 100%;
@@ -37,12 +40,14 @@ li {
 .project2 {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-areas: "info img";
+  grid-template-areas: "img info";
 }
 .info2 {
-  text-align: justify;
-
-  grid-area: info;
+  grid-column-start: 2;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .project2 img {
   max-width: 100%;
@@ -55,6 +60,10 @@ li {
 }
 .info3 {
   grid-column-start: 2;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .info3 h5 {
   font-size: 1.5em;

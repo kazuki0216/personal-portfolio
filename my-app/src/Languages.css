@@ -15,14 +15,11 @@
   justify-content: space-evenly;
   margin: 5% 2rem;
 }
-.FrontEnd h2 {
-  font-size: 3em;
-}
 .FrontEnd h3 {
-  font-size: 3em;
+  font-size: 2.3em;
 }
 .FrontEnd li {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .BackEnd ul {
@@ -31,17 +28,13 @@
   margin: 5% 2rem;
 }
 .BackEnd li {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
-.BackEnd h2 {
-  font-size: 4em;
-  margin-bottom: 1em;
-}
 .BackEnd h3 {
   margin-left: 5%;
+  font-size: 2.3em;
   text-align: left;
-  font-size: 3em;
 }
 
 .coding-icon {
