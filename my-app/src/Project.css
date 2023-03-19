@@ -6,6 +6,7 @@
 }
 
 .Project ul {
+  margin-top: 1rem;
   margin-left: 1rem;
   list-style-type: disc;
 }
