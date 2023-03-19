@@ -50,7 +50,7 @@ function App() {
             alt="An image"
           />
           <div className="text">
-            <h2>My Name Is Kazuki Kagoshima</h2>
+            <h2 style={{ color: "white" }}>My Name Is Kazuki Kagoshima</h2>
             <h3>
               I'm a 24 year old Full-Stack <br />
               software developer based in Japan

@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import "./Intro.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { faUser } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const MyIntro = () => {
   useEffect(() => {
@@ -14,7 +14,9 @@ const MyIntro = () => {
     <>
       <div className="Intro">
         <div className="life-intro">
-          <h2>ABOUT <FontAwesomeIcon icon={faUser} className="user-icon"/></h2>
+          <h2>
+            ABOUT <FontAwesomeIcon icon={faUser} className="user-icon" />
+          </h2>
           <h3>
             I lived in California for a couple of years as a kid, <br />
             and have been involved with American culture for all of my life,{" "}
@@ -33,7 +35,7 @@ const MyIntro = () => {
           the lives of many. From those days forward, I knew that I wanted to be
           a part of developing meaningful software.
         </p>
-        <h2>
+        <h2 style={{ color: "white" }}>
           In order to make my dream of becoming a software engineer come true...
         </h2>
         <div className="body-img">
