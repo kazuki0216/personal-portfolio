@@ -33,16 +33,21 @@ h1 {
   height: 80vh;
   overflow: hidden;
   display: flex;
-  align-items: center;
+  align-items: center; /* centers items vertically */
+  justify-content: space-evenly; /* centers items horizontally */
+  margin: 0 auto;
 }
 
-.text {
-  flex-grow: 1; /* allow the text to expand and fill the remaining space */
-  padding: 0 20px; /* add some padding for spacing */
+.header .text {
+  text-align: center;
 }
-
-img {
+.header img {
   max-width: 100%; /* make sure the image doesn't exceed the width of its container */
+  height: 80%;
+  border-radius: 25% 10%;
+  border: thick double #3249ce;
+  box-shadow: #32a1ce;
+  box-shadow: 5px 3px 3px #154457;
 }
 
 @media only screen and (max-width: 390px) {

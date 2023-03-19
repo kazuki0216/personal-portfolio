@@ -12,11 +12,7 @@ const MyIntro = () => {
     <>
       <div className="Intro">
         <div className="life-intro">
-          <h3>
-            I'm a 23 year old Full-Stack <br />
-            software developer based in Japan
-          </h3>
-
+          <h2>ABOUT</h2>
           <h4>
             I lived in California for a couple of years as a kid, <br />
             and have been involved with American culture for all of my life,{" "}
