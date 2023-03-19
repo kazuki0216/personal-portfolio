@@ -11,21 +11,20 @@ const BackEnd = () => {
     <>
       <div className="BackEnd">
         <div>
-          <h3 data-aos="fade-in">Back-End Experience</h3>
+          <h3>Back-End Experience</h3>
           <ul>
-            <li data-aos="fade-left">TypeScript</li>
-            <li data-aos="fade-left">Express/Node</li>
-            <li data-aos="fade-left">Java</li>
+            <li>TypeScript</li>
+            <li>Express/Node</li>
+            <li>Java</li>
           </ul>
         </div>
         <div className="database">
-          <h3 data-aos="fade-in">Database</h3>
+          <h3>Database</h3>
           <ul>
-            <li data-aos="fade-right">PostgreSQL</li>
-            <li data-aos="fade-left">Mongo DB</li>
+            <li>PostgreSQL</li>
+            <li>Mongo DB</li>
           </ul>
         </div>
-        <div className="designs-12"></div>
       </div>
     </>
   );

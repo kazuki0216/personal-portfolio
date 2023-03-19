@@ -1,0 +1,27 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 98%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 1000; /* ensure it's on top of other elements */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 1rem;
+  width: 100%;
+}
+
+nav a {
+  text-decoration: none;
+}
