@@ -14,10 +14,9 @@ header {
 
 .logo {
   margin-left: 2rem;
-  background-color: azure;
+  background-color: transparent;
 }
 .logo h1 {
-  background-color: transparent;
   color: #001f3f;
   font-weight: 700;
 }
