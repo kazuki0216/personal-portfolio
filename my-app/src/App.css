@@ -53,9 +53,3 @@ h2 {
   box-shadow: #32a1ce;
   box-shadow: 5px 3px 3px #154457;
 }
-
-@media only screen and (max-width: 600px) {
-  .header {
-    display: block;
-  }
-}
