@@ -70,29 +70,8 @@
   font-size: 1.7rem;
 }
 
-@media only screen and (max-width: 390px) {
-  br {
-    display: none;
-  }
-  .life-intro h4 {
-    margin-top: 20%;
-    margin-left: 8%;
-    font-size: 1.5em;
-  }
-  p {
-    clear: both;
-    margin: 10% 8%;
-    text-align: unset !important;
-  }
-  h2 {
-    margin: 15% 10% 10% 10%;
-  }
-  .body-img img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover;
-  }
-  .closing h6 {
-    text-align: left !important;
+@media only screen and (max-width: 600px) {
+  .Intro {
+    overflow-x: hidden;
   }
 }

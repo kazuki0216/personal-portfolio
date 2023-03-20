@@ -17,7 +17,7 @@ header {
   background-color: azure;
 }
 .logo h1 {
-  background-color: azure;
+  background-color: transparent;
   color: #001f3f;
   font-weight: 700;
 }
@@ -56,4 +56,26 @@ section {
   display: block;
   height: 5vh;
   margin: -5vh 0 0;
+}
+
+/* apply these styles when screen width is less than or equal to 375px (iPhone 12 Pro) */
+@media screen and (max-width: 600px) {
+  header {
+    display: block;
+  }
+  .logo {
+    text-align: center;
+  }
+  nav {
+    text-align: center;
+  }
+  nav ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    display: inline-block;
+    margin: 0 1rem;
+  }
 }

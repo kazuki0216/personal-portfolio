@@ -10,9 +10,7 @@ import "aos/dist/aos.css";
 import "./Navbar.css";
 
 function App() {
-  useEffect(() => {
-    AOS.init({ duration: 2000 });
-  }, []);
+ 
   const scrollToRef = (ref: any) => {
     ref.current.scrollIntoView({ behavior: "smooth" });
   };
