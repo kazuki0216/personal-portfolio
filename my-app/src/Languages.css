@@ -46,7 +46,8 @@
 
 @media (max-width: 768px) {
   #skills {
-    margin-top: 60em;
+    margin-top: 65em;
+    margin-left: 1rem;
   }
   .FrontEnd h2 {
     text-align: center;

@@ -54,3 +54,12 @@ h2 {
   box-shadow: #32a1ce;
   box-shadow: 5px 3px 3px #154457;
 }
+
+@media (max-width: 768px) {
+  #home {
+    margin-left: 3rem;
+  }
+  #about {
+    margin-left: 3rem;
+  }
+}

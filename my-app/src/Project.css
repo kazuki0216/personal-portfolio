@@ -69,9 +69,13 @@ iframe {
 }
 
 @media (max-width: 768px) {
+  #projects {
+    padding-top: 0;
+  }
   .project1 {
     flex-direction: row;
     height: auto;
+    margin-left: 1rem;
   }
   .info1,
   iframe {
