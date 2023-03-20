@@ -19,6 +19,7 @@ header {
 .logo h1 {
   color: #001f3f;
   font-weight: 700;
+  background-color: azure;
 }
 
 nav ul {
@@ -55,4 +56,8 @@ section {
   display: block;
   height: 5vh;
   margin: -5vh 0 0;
+}
+
+@media (max-width: 768px) {
+  
 }

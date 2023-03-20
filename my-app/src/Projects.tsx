@@ -10,15 +10,13 @@ const ProjectCards = () => {
         <h2 className="project-title">Coding Projects</h2>
         <h3 className="project-title">Tokyo Noire</h3>
         <div className="project1">
-          <Container className="1">
-            <div className="ratio ratio-16x9">
-              <iframe
-                src="https://www.youtube.com/embed/V704EDIsMFU"
-                title="YouTube video"
-                allowFullScreen
-              ></iframe>
-            </div>
-          </Container>
+          <div className="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/V704EDIsMFU"
+              title="YouTube video"
+              allowFullScreen
+            ></iframe>
+          </div>
           <div className="info1">
             <h4>
               A Geo-location story based web app that allows story tellers to
@@ -40,16 +38,12 @@ const ProjectCards = () => {
         </div>
         <h3 className="project-title">Alternatives</h3>
         <div className="project2">
-          <div className="ratio ratio-16x9">
-            <Container className="2">
-              <div className="ratio ratio-16x9">
-                <iframe
-                  src="https://www.youtube.com/embed/1nZ_d20yrqo"
-                  title="YouTube video"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </Container>
+          <div className="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/1nZ_d20yrqo"
+              title="YouTube video"
+              allowFullScreen
+            ></iframe>
           </div>
           <div className="info2">
             <h4>
@@ -71,15 +65,13 @@ const ProjectCards = () => {
         </div>
         <h3 className="project-title">Sportify</h3>
         <div className="project3">
-          <Container className="3">
-            <div className="ratio ratio-16x9">
-              <iframe
-                src="https://www.youtube.com/embed/W82qPDkLn5U"
-                title="YouTube video"
-                allowFullScreen
-              ></iframe>
-            </div>
-          </Container>
+          <div className="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/W82qPDkLn5U"
+              title="YouTube video"
+              allowFullScreen
+            ></iframe>
+          </div>
           <div className="info3">
             <h4>
               A team project that generates random workouts for users that will

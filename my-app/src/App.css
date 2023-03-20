@@ -36,6 +36,8 @@ h2 {
   height: 80vh;
   overflow: hidden;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center; /* centers items vertically */
   justify-content: space-evenly; /* centers items horizontally */
   margin: 0 auto;

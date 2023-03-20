@@ -17,8 +17,8 @@ import { CAlert } from "@coreui/react";
 const FrontEnd = () => {
   return (
     <>
-      <h2>Programming Languages and Skills</h2>
       <div className="FrontEnd">
+        <h2>Programming Languages and Skills</h2>
         <div className="front">
           <h3>Front-End Experience</h3>
         </div>

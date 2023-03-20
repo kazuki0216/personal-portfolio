@@ -12,6 +12,7 @@
 
 .FrontEnd ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 5% 2rem;
 }
@@ -24,6 +25,7 @@
 
 .BackEnd ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 5% 2rem;
 }
@@ -42,80 +44,18 @@
   margin-left: 1px;
 }
 
-@media only screen and (max-width: 390px) {
-  .FrontEnd {
-    margin-top: 10%;
-    margin-bottom: 50%;
-    margin-left: 5%;
-    text-align: left;
-  }
-  br {
-    display: none;
-  }
-  p {
-    clear: both;
-    margin: 10% 8%;
-    text-align: unset !important;
+@media (max-width: 768px) {
+  #skills {
+    margin-top: 60em;
   }
   .FrontEnd h2 {
-    font-size: 2em;
-  }
-  .BackEnd h2 {
-    font-size: 2em;
+    text-align: center;
   }
   .FrontEnd h3 {
-    text-decoration: underline;
-    font-size: 1.5em;
-    font-weight: 700;
-  }
-
-  .BackEnd {
-    font-size: 1.5em;
-    font-weight: 700;
-    margin-bottom: 50%;
+    text-align: center;
   }
   .BackEnd h3 {
-    text-decoration: underline;
-    font-size: 1.5em;
-    font-weight: 700;
-  }
-
-  .FrontEnd ul {
-    display: block;
-    z-index: 10;
-  }
-  .FrontEnd li {
-    float: left;
-    z-index: 10;
-    font-size: 1.4em;
-  }
-  .BackEnd {
+    text-align: center;
     margin-top: 10%;
-    text-align: LEFT;
-    margin-left: 5%;
-    z-index: 10;
-  }
-  .BackEnd ul {
-    display: block;
-    z-index: 10;
-  }
-  .BackEnd li {
-    font-size: 1.4em;
-    float: left;
-    z-index: 10;
-  }
-
-  .database {
-    text-align: left;
-    margin-left: 5%;
-    margin-top: 40% !important;
-  }
-  .database h3 {
-    text-decoration: underline;
-    font-size: 1.8em;
-    font-weight: 700;
-  }
-  .database li {
-    font-size: 1.4em;
   }
 }
